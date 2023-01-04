@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class if__else_atividade1 {
+public class atividade1_if__else {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

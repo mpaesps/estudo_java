@@ -1,4 +1,4 @@
-public class primeiro_array_atividade2 {
+public class atividade2_primeiro_array {
     public static void main (String[] args){
 
         //declarando um array de inteiros

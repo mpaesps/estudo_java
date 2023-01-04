@@ -1,4 +1,4 @@
-public class segundo_array_atividade3 {
+public class atividade3_segundo_array {
     public static void main(String[] args){
         int umArray[] = {100,200,300,400,500};
 

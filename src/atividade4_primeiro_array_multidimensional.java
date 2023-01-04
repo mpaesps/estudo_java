@@ -1,4 +1,4 @@
-public class primeiro_array_multidimensional_atividade4 {
+public class atividade4_primeiro_array_multidimensional {
 
     public static void main(String[] args) {
         String[][] nomes = {{"Sr. ", "Sra. ", "Srta. "},
