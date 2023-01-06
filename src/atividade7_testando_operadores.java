@@ -28,6 +28,11 @@ public class atividade7_testando_operadores {
 
         System.out.println(result);
 
+        int m = 10;
+        int n = i++%5;
+
+        System.out.println(m);
+        System.out.println(n);
 
     }
 }
