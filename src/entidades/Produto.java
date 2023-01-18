@@ -5,13 +5,13 @@ public class Produto {
     public double preco;
     public int quantidade;
 
-    public double ValorTotalEstoque(){
+    public double valorTotalEstoque(){
         return preco * quantidade;
     }
-    public void AdicionarProdutos(int quantidade){
+    public void adicionarProdutos(int quantidade){
         this.quantidade+=quantidade;
     }
-    public void RemoverProdutos(int quantidade){
+    public void removerProdutos(int quantidade){
         this.quantidade-=quantidade;
     }
 public String toString(){
@@ -21,6 +21,6 @@ public String toString(){
                 +"\n"
                 +quantidade
                 +" unidades\nTotal: $"
-                +String.format("%.2f", ValorTotalEstoque());
+                +String.format("%.2f", valorTotalEstoque());
 }
 }

@@ -19,13 +19,13 @@ public class ProgramaEstoque {
 
         System.out.println("quantidade de produtos para adicionar ao estoque");
         int quantidade = sc.nextInt();
-        produto.AdicionarProdutos(quantidade);
+        produto.adicionarProdutos(quantidade);
 
         System.out.println("estoque atualizado: " + produto);
 
         System.out.println("quantidade de produtos para remover do estoque");
         quantidade = sc.nextInt();
-        produto.RemoverProdutos(quantidade);
+        produto.removerProdutos(quantidade);
 
         System.out.println("estoque atualizado: " + produto);
     }
