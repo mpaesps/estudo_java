@@ -36,7 +36,9 @@ public class ProgramStock {
 
         System.out.println();
         System.out.println("Updated data: " + product);
-
+        System.out.println("\nname " + product.getName());
+        product.setName("h");
+        System.out.println("updated name " + product.getName());
         sc.close();
     }
 }
